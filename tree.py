@@ -1,8 +1,8 @@
 from anytree import Node, RenderTree
 from random import randint
 
-terminals = ['x0', 'x1']
-functions = ['sum', 'sub', 'div', 'mul', 'sin', 'cos', 'exp']
+terminals = [3, 5]
+functions = ['sum', 'sub', 'div', 'mul']
 pop_list = []
 
 class Tree(Node):
@@ -27,7 +27,7 @@ def get_node_type(terminal_only=False):
 		return functions[function_node]	
 
 
-def create_initial_pop(max_depth=7, node=None):
+def create_initial_pop(max_depth=2, node=None):
 	if node == None:
 		node_type = get_node_type()
 		print(node_type)
@@ -87,54 +87,42 @@ def create_initial_pop(max_depth=7, node=None):
 		return
 
 
-
-
+def calculate_tree_value(tree):
+	if(tree.name == 'sub'):
+		print("Sub Check")
+		return calculate_tree_value(tree.children[0]) - calculate_tree_value(tree.children[1])
+	if(tree.name == 'sum'):
+		print("Sum Check")
+		return calculate_tree_value(tree.children[0]) + calculate_tree_value(tree.children[1])
+	if(tree.name == 'mul'):
+		print("Mul Check")
+		return calculate_tree_value(tree.children[0]) * calculate_tree_value(tree.children[1])
+	if(tree.name == 'div'):
+		print("Div Check")
+		dividendo = calculate_tree_value(tree.children[1])
+		print("Dividendo value: ", dividendo)
+		if(dividendo >= -1 and dividendo <= 1):
+			return 1
+		return calculate_tree_value(tree.children[0]) / calculate_tree_value(tree.children[1])
+	if(tree.name == 'x0'):
+		#retornar valor de x0
+		pass
+	if(tree.name == 'x1'):
+		#retornar valor de x1
+		pass
+	if(tree.name in terminals):
+		print("Terminal Check")
+		return int(tree.name)
+	pass
 
 tree = create_initial_pop()
 
 for pre, fill, node in RenderTree(tree):
-	print("%s%s" % (pre, node.name))
+	print(pre, node.name)
 	#pass
 
+print(calculate_tree_value(tree))
 
-
-node_list = []
-
-
-root = Tree("sum")
-node_list.append(root)
-n1 = Node("div", parent=node_list[0])
-n2 = Node("4", parent=node_list[0])
-n3 = Node("sum", parent=n1, foo=1)
-Node("8", parent=n1)
-Node("1", parent=n3)
-Node("7", parent=n3)
-
-for pre, fill, node in RenderTree(node_list[0]):
-	print("%s%s" % (pre, node.name))
-
-
-
-mary = Node("Mary")
-urs = Node("Urs", parent=mary)
-chris = Node("Chris", parent=urs)
-marta = Node("Marta", parent=chris)
-jhon = Node("Djon")
-jhon.parent = marta
-
-for pre, fill, node in RenderTree(root):
-	print("%s%s" % (pre, node.name))
-	#pass
-
-
-#urs.parent = None
-#chris = None
-
-#n3.parent = chris
-
-for pre, fill, node in RenderTree(mary):
-	#print("%s%s" % (pre, node.name))
-	pass
 
 
 
