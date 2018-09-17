@@ -1,9 +1,26 @@
 from anytree import Node, RenderTree
 from random import randint
+import os
+import csv
+import numpy as np
 
 terminals = [3, 5]
 functions = ['sum', 'sub', 'div', 'mul']
 pop_list = []
+
+dataset_path = 'datasets/synth1/synth1-train.csv'
+
+
+class FileLoad:
+	X_train = []
+	y_train = []
+
+	def __init__(self, file):
+		data = np.genfromtxt(file, delimiter=',')
+		self.X_train = data[:, :-1]
+		print("X: ", self.X_train)
+		self.y_train = data[:, -1]
+		print("y: ", self.y_train)
 
 class Tree(Node):
 	num_childs = 0
@@ -18,7 +35,7 @@ class Tree(Node):
 
 
 def get_node_type(terminal_only=False):
-	node_type = randint(0, 3)
+	node_type = randint(0, 4)
 	if node_type == 0 or terminal_only==True:
 		terminal_node = randint(0, len(terminals)-1)
 		return terminals[terminal_node]
@@ -102,8 +119,8 @@ def calculate_tree_value(tree):
 		dividendo = calculate_tree_value(tree.children[1])
 		print("Dividendo value: ", dividendo)
 		if(dividendo >= -1 and dividendo <= 1):
-			return 1
-		return calculate_tree_value(tree.children[0]) / calculate_tree_value(tree.children[1])
+			dividendo = 1
+		return calculate_tree_value(tree.children[0]) / dividendo
 	if(tree.name == 'x0'):
 		#retornar valor de x0
 		pass
@@ -115,14 +132,23 @@ def calculate_tree_value(tree):
 		return int(tree.name)
 	pass
 
+
+
+def calculate_fitness(tree_value, y):
+
+	pass
+
+fileLoad = FileLoad(dataset_path)
 tree = create_initial_pop()
 
 for pre, fill, node in RenderTree(tree):
 	print(pre, node.name)
 	#pass
 
-print(calculate_tree_value(tree))
+tree_value = calculate_tree_value(tree)
+print(tree_value)
 
+calculate_fitness(tree_value, fileLoad.y_train[0])
 
 
 
