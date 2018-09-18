@@ -1,14 +1,14 @@
 from anytree import Node, RenderTree
 from random import randint
 import os
-import csv
+#import csv
 import numpy as np
-from sklearn.metrics import mean_squared_error
+#from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 
 gen_size = 50
-terminals = [3, 5]
+terminals = ['x0', 'x1']
 functions = ['sum', 'sub', 'div', 'mul']
 
 pop_list = []
@@ -18,6 +18,24 @@ pop_fitness = []
 
 dataset_path = 'datasets/synth1/synth1-train.csv'
 
+class Symbolic_regression:
+	def __init__(self):
+		pass
+
+	def calculate_initial_pop(self):
+		pass
+
+	def calculate_tree_value(self):
+		pass
+
+	def calculate_fitness(self):
+		pass
+
+	def crossover(self):
+		pass
+
+	def tournament_selection(self):
+		pass
 
 class FileLoad:
 	X_train = []
@@ -61,6 +79,7 @@ class Node:
 		self.left = left
 		self.right = right
 		self.children = []
+		self.height = 0
 
 	def getVal(self):
 		return self.name
@@ -83,9 +102,25 @@ class Node:
 	def setRight(self,newright):
 		self.right = newright
 
+	def addHeight(self):
+		self.height = self.height + 1
+
+	def get_tree_height(self, root):	
+		if root is None:
+			return -1
+		return max(self.get_tree_height(root.left), self.get_tree_height(root.right)) + 1
+
+	def __str__(self, level=0):
+		ret = "    "*level+repr(self.name)+"\n"
+		for child in self.children:
+			ret += child.__str__(level+1)
+		return ret
+
+	def __repr__(self):
+		return '<tree node representation>'
 
 def get_node_type(terminal_only=False):
-	node_type = randint(0, 3)
+	node_type = randint(0, 4)
 	if node_type == 0 or terminal_only==True:
 		terminal_node = randint(0, len(terminals)-1)
 		return terminals[terminal_node]
@@ -94,7 +129,7 @@ def get_node_type(terminal_only=False):
 		return functions[function_node]	
 
 
-def create_initial_pop(max_depth=2, node=None, node2=None):
+def create_initial_pop(max_depth=7, node=None, node2=None, root=None):
 	if node == None:
 		node_type = get_node_type()
 		
@@ -102,22 +137,19 @@ def create_initial_pop(max_depth=2, node=None, node2=None):
 		root = Node(node_type)
 
 		root2 = Tree(node_type)
-
-		print(root.getVal())
-			
+		
 		#get arity for root oeprator
 		if node_type in terminals:
 			root.arity = 0
 		elif node_type in ['sin', 'cos', 'exp']:
 			root.arity = 1
 			#criar um filho recursivamente
-			create_initial_pop(node=root, node2=root2)
+			create_initial_pop(node=root, node2=root2, root=root)
 		else:
 			root.arity = 2
-			print("Entrei")
 			#criar dois filhos recursivamente
-			create_initial_pop(node=root, node2=root2)
-			create_initial_pop(node=root, node2=root2)
+			create_initial_pop(node=root, node2=root2, root=root)
+			create_initial_pop(node=root, node2=root2, root=root)
 		
 		pop_list.append(root)
 		pop_list2.append(root2)
@@ -150,7 +182,6 @@ def create_initial_pop(max_depth=2, node=None, node2=None):
 		return
 	
 	elif node.num_childs < node.arity:
-		print("Elif child: ")
 		node.num_childs += 1
 		node_type = get_node_type()
 		leaf = Node(node_type)
@@ -158,7 +189,6 @@ def create_initial_pop(max_depth=2, node=None, node2=None):
 
 		
 		leaf.depth = node.depth + 1
-		print(leaf.getVal())
 		
 		node.setChild(leaf)
 		leaf.parent = node
@@ -172,18 +202,16 @@ def create_initial_pop(max_depth=2, node=None, node2=None):
 
 		#get arity for leaf operator
 		if node_type in terminals:
-			print("Aqui-1")
 			leaf.arity = 0
 		elif node_type in ['sin', 'cos', 'exp']:
 			leaf.arity = 1
 			#criar somente um filho(arity 1)
-			create_initial_pop(node=leaf, node2=leaf2)
+			create_initial_pop(node=leaf, node2=leaf2, root=root)
 		else:
 			leaf.arity = 2
-			print("Aqui-2")
-			#chamar recursivamente para criar dois nós filhos(arity 2)
-			create_initial_pop(node=leaf, node2=leaf2)
-			create_initial_pop(node=leaf, node2=leaf2)
+			#chamar recursivamente para criar dois nos filhos(arity 2)
+			create_initial_pop(node=leaf, node2=leaf2, root=root)
+			create_initial_pop(node=leaf, node2=leaf2, root=root)
 
 		#print(leaf)
 		return
@@ -198,7 +226,7 @@ def calculate_tree_value(tree, x):
 		return calculate_tree_value(tree.children[0], x) * calculate_tree_value(tree.children[1], x)
 	if(tree.name == 'div'):
 		dividendo = calculate_tree_value(tree.children[1], x)
-		if(dividendo >= -1 and dividendo <= 1):
+		if(dividendo >= -0.05 and dividendo <= 0.05):
 			dividendo = 1
 		return calculate_tree_value(tree.children[0], x) / dividendo
 	if(tree.name == 'x0'):
@@ -215,81 +243,87 @@ def calculate_tree_value(tree, x):
 def calculate_fitness(tree_value, y):
 	fitness = y - tree_value
 	print(abs(fitness))
-	return fitness
+	return abs(fitness)
 
 
 def crossover(parent_1, parent_2):
 	print()
 	print()
 
-	crossover_1_height = int(parent_1.height/3)
-	crossover_2_height = int(parent_2.height/3)
-	print("Cross Height: ", crossover_2_height)
+	height_1 = parent_1.get_tree_height(parent_1)
+	height_2 = parent_2.get_tree_height(parent_2)
+
+	crossover_1_height = int(height_1/2)
+	crossover_2_height = int(height_2/2)
+	print("Cross Height: ", crossover_2_height, crossover_1_height)
+
+	child_1 = parent_1
+	child_2 = parent_2
+
+	print(child_1)
+
+	tree_1 = getTree(child_1, crossover_1_height)
+	print("Tree1")
+	print(tree_1)
+
+	tree_2 = getTree(child_2, crossover_2_height)
+	print("Tree2")
+	print(tree_2)
 
 	tree_1 = None
 	tree_2 = None
 
-	for pre, fill, node in RenderTree(parent_1):
-		print(pre, node.name)
 
-	for pre, fill, node in RenderTree(parent_2):
-		print(pre, node.name)
+def getTree(tree, height):
+	print(tree.depth)
+	if tree.depth < height:
+		for child in tree.children:
+			return getTree(child, height)
+	elif tree.get_tree_height(tree) >= 2:
+		return tree
 
-	for pre, fill, node in RenderTree(parent_1):
-		if(node.height == crossover_1_height):
-			tree_1 = node
-			break
-		
-	for pre, fill, node in RenderTree(parent_2):
-		if(node.height == crossover_2_height):
-			tree_2 = node
-			break
-	
+def tournament_selection(pop, k=2):
+	(best, fitness) = (None, None)
+	for i in range(0, k):
+		ind = pop[randint(0, len(pop)-1)]
+		if best == None or fitness > ind[1]:
+			best = ind[0]
+			fitness = ind[1]
 
-	print("Tree_1: ", tree_1)
-	for pre, fill, node in RenderTree(tree_1):
-		print(pre, node.name)
-	print("Tree_2: ", tree_2)
-	for pre, fill, node in RenderTree(tree_2):
-		print(pre, node.name)
-	
-def printtree(tree_node):
-    if tree_node.left is not None:
-        printtree(tree_node.left)
-    print("Name: ", tree_node.name, " Depth: ", tree_node.depth)
-    if tree_node.right is not None:
-        printtree(tree_node.right)
+	print("Fit: ", fitness)
+	return best
 
 
-#fileLoad = FileLoad(dataset_path)
 
-for i in range(1):
-	#x, y = fileLoad.getData()
+fileLoad = FileLoad(dataset_path)
+
+#Create initial population
+for i in range(5):
+	x, y = fileLoad.getData()
 
 	tree, tree_vis = create_initial_pop()
-	
-	printtree(tree)
 
 	for pre, fill, node in RenderTree(tree_vis):
 		print(pre, node.name)
 		#pass
 
-	
-	print("Value: ", calculate_tree_value(tree, 0))
+	print("Value: ", calculate_tree_value(tree, x))
 
-	#for pre, fill, node in RenderTree(tree):
-		#print(pre, node.val)
-		#pass
+	tree_value = calculate_tree_value(tree, x)
 
-	#tree_value = calculate_tree_value(tree, x)
-	
-	#fitness = calculate_fitness(tree_value, y)
+	fitness = calculate_fitness(tree_value, y)
 
-	#pop_fitness.append( (tree, fitness ))
+	pop_fitness.append( (tree, fitness) )
 
-#print(pop_fitness)
-
-#crossover(pop_fitness[0][0], pop_fitness[1][0])
+	print("Pop: ", pop_fitness)
 
 
+#Calculate children population
+child_population = []
+while len(child_population) < gen_size:
+	best_1 = tournament_selection(pop_fitness, k=2)
+	best_2 = tournament_selection(pop_fitness, k=2)
 
+	crossover(best_1, best_2)
+
+	break
