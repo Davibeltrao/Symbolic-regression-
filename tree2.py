@@ -8,7 +8,7 @@ from math import sqrt
 import copy
 
 
-gen_size = 50
+gen_size = 150
 terminals = ['x0', 'x1']
 functions = ['sum', 'sub', 'div', 'mul']
 
@@ -17,6 +17,9 @@ pop_fitness = []
 
 dataset_path = 'datasets/synth1/synth1-train.csv'
 
+max_depth = 3
+
+tree_id = 0
 
 class FileLoad:
 	X_train = []
@@ -41,6 +44,7 @@ class FileLoad:
 
 class Tree(Node):
 	num_childs = 0
+	tree_id = 0
 	arity = 0 # 0 = Terminal / 1 = (exp, cos, sin) / 2 = (mul, div, sub, sum)
 	def __init__(self, name):
 		super().__init__(name)
@@ -62,13 +66,15 @@ def get_node_type(terminal_only=False, first=False):
 
 
 def create_initial_pop(max_depth=3, node=None):
+	global tree_id
 	if node == None:
 		node_type = get_node_type(first=True)
 		if(node_type == 'rand'):
 			node_type = randint(-5, 5)
 		#create root node
 		root = Tree(node_type)
-			
+		root.tree_id = tree_id
+		tree_id += 1	
 		#get arity for root oeprator
 		if node_type in terminals:
 			root.arity = 0
@@ -100,6 +106,8 @@ def create_initial_pop(max_depth=3, node=None):
 		if node.num_childs < node.arity:
 
 			leaf = Tree(node_type)
+			leaf.tree_id = tree_id
+			tree_id += 1
 			
 			leaf.parent = node
 
@@ -114,6 +122,8 @@ def create_initial_pop(max_depth=3, node=None):
 			node_type = randint(-5, 5)
 		
 		leaf = Tree(node_type)
+		leaf.tree_id = tree_id
+		tree_id += 1
 				
 		leaf.parent = node
 
@@ -166,7 +176,7 @@ def calculate_fitness(tree, x, y):
 
 	ind_fitness = sqrt(ind_fitness)
 
-	print(ind_fitness)
+	#print(ind_fitness)
 
 	#fitness = y - tree_value
 	#print(abs(fitness))
@@ -181,34 +191,65 @@ def tournament_selection(pop, k=2):
 			best = ind[0]
 			fitness = ind[1]
 
-	print("Fit: ", fitness)
-	print(best)
+	#print("Fit: ", fitness)
+	#print(best)
 	return best, fitness
 
 
 def split_tree(parent, cut_height=None):
+	tree_list = []
 	tree_1 = None
 	tree_2 = None
+	cut_depth = parent.height-1
+
+	#print("Height Parent: ", parent.height)
+
+	# for pre, fill, node in RenderTree(parent):
+	# 	if node.depth == cut_depth and tree_1 == None:
+	# 		tree_1 = node
+	# 		node.parent = None
+	# 		tree_list.append(node)
+		
+
+	# for pre, fill, node in RenderTree(parent):
+	# 	if node.depth == cut_depth and tree_2 == None and tree_1 != None:
+	# 		tree_2 = node
+	# 		node.parent = None
 
 	for pre, fill, node in RenderTree(parent):
-		if node.depth == 1 and tree_1 == None:
-			tree_1 = node
-			node.parent = None
+		if node.depth == cut_depth:
+			tree_list.append(node)
 		
 
 	for pre, fill, node in RenderTree(parent):
-		if node.depth == 1 and tree_2 == None and tree_1 != None:
+		if node.depth == cut_depth and tree_2 == None and tree_1 != None:
 			tree_2 = node
 			node.parent = None
 
-	return tree_1, tree_2
+
+	# print("List: ", tree_list)
+	# print("List len:", len(tree_list))
+
+	tree_1, tree_2 = np.random.choice(tree_list, 2)
+	tree_1.parent = None
+	tree_2.parent = None
+	
+	# print("Split 1")
+	# for pre, fill, node in RenderTree(tree_1):
+	# 	print(pre, node.name)
+
+	# print('Split 2')
+	# for pre, fill, node in RenderTree(tree_2):
+	# 	print(pre, node.name)
+
+	return tree_1, tree_2, cut_depth
 
 def crossover(parent_1, parent_2):
-	print(">>>>>>>>>>>CROSSOVER<<<<<<<<<<<<")
-	print("\n\n")
+	# print(">>>>>>>>>>>CROSSOVER<<<<<<<<<<<<")
+	# print("\n\n")
 
-	print(parent_1)
-	print(parent_2)
+	# print(parent_1)
+	# print(parent_2)
 
 	tree_test = parent_1
 	tree_test2 = parent_2
@@ -216,11 +257,11 @@ def crossover(parent_1, parent_2):
 
 	crossover_1_height = int(parent_1.height/3)
 	crossover_2_height = int(parent_2.height/3)
-	print("Cross Height: ", parent_1.height)
-	print("Cross Height: ", parent_2.height)
+	#print("Cross Height: ", parent_1.height)
+	#print("Cross Height: ", parent_2.height)
 
 	if parent_2.height <= 1 or parent_1.height <= 1:
-		print("Returning crossover. Small individual size")
+		#print("Returning crossover. Small individual size")
 		return parent_1
 
 	tree_1 = None
@@ -230,42 +271,49 @@ def crossover(parent_1, parent_2):
 	tree_4 = None
 
 
-	print("Parent 1 oi")
-	for pre, fill, node in RenderTree(tree_test):
-		print(pre, node.name)
+	# print("Parent 1")
+	# for pre, fill, node in RenderTree(tree_test):
+	# 	print(pre, node.name)
 
-	print('Parent 2 oi')
-	for pre, fill, node in RenderTree(tree_test2):
-		print(pre, node.name)
+	# print('Parent 2')
+	# for pre, fill, node in RenderTree(tree_test2):
+	# 	print(pre, node.name)
 
 	if tree_test.arity == 2:	
-		tree_1, tree_2 = split_tree(tree_test)
+		tree_1, tree_2, cut_depth_1 = split_tree(tree_test)
 
 	if tree_test2.arity == 2:
-		tree_3, tree_4 = split_tree(tree_test2)
+		tree_3, tree_4, cut_depth_2 = split_tree(tree_test2)
 	
+	# print("Arvore a ser substituida")
+	# for pre, fill, node in RenderTree(tree_test):
+	# 	print(pre, node.name)
 
 	for pre, fill, node in RenderTree(tree_test):
-		if node.depth == 0 and tree_1 != None and tree_3 != None: 
+		if node.depth == cut_depth_1-1 and tree_1 != None and tree_3 != None and len(node.children) < node.arity: 
 			tree_3.parent = node
+		
+	for pre, fill, node in RenderTree(tree_test):
+		if node.depth == cut_depth_1-1 and tree_1 != None and tree_3 != None and len(node.children) < node.arity: 
 			tree_1.parent = node
 
-	print("Parent 1")
-	for pre, fill, node in RenderTree(tree_test):
-		print(pre, node.name)
+
+	# print("End of crossover")
+	# for pre, fill, node in RenderTree(tree_test):
+	# 	print(pre, node.name)
 
 	return tree_test
 
 def mutation(tree):
-	subtree = create_initial_pop(max_depth=1)
+	subtree = create_initial_pop(max_depth=3)
 
-	print('SubTree')
-	for pre, fill, node in RenderTree(subtree):
-		print(pre, node.name)
+	# print('SubTree')
+	# for pre, fill, node in RenderTree(subtree):
+	# 	print(pre, node.name)
 
-	print('Tree')
-	for pre, fill, node in RenderTree(tree):
-		print(pre, node.name)
+	# print('Tree')
+	# for pre, fill, node in RenderTree(tree):
+	# 	print(pre, node.name)
 
 	for pre, fill, node in RenderTree(tree):
 		if node.depth == 1:
@@ -276,9 +324,11 @@ def mutation(tree):
 		if node.depth == 1:
 			subtree.parent = tree
 
-	print('Tree')
-	for pre, fill, node in RenderTree(tree):
-		print(pre, node.name)	
+	# print('Tree')
+	# for pre, fill, node in RenderTree(tree):
+	# 	print(pre, node.name)	
+
+	return tree
 
 	
 def printtree(tree_node):
@@ -292,7 +342,7 @@ def printtree(tree_node):
 fileLoad = FileLoad(dataset_path)
 x, y = fileLoad.getData()
 
-for i in range(10):
+for i in range(gen_size):
 	tree = create_initial_pop()
 
 	#printtree(tree)
@@ -317,25 +367,49 @@ for i in range(10):
 
 #Calculate children population
 
-child_population = []
-while len(child_population) < gen_size:
-	best_1, fit_1 = tournament_selection(pop_fitness, k=2)
-	best_2, fit_2 = tournament_selection(pop_fitness, k=2)
 
-	best_test = copy.deepcopy(best_1)
-	best_test2 = copy.deepcopy(best_2)
+while 1:
+	child_population = []
+	fitness_list = []
+	while len(child_population) < gen_size:
+		best_1, fit_1 = tournament_selection(pop_fitness, k=3)
+		best_2, fit_2 = tournament_selection(pop_fitness, k=3)
 
-	#new_ind = crossover(best_test, best_test2)
+		first_ind = copy.deepcopy(best_1)
+		second_ind = copy.deepcopy(best_2)
 
-	mutation(best_test)
-	break
-	# fitness = calculate_fitness(new_ind, x, y)
+		new_ind = first_ind
 
-	# print("Fit1: ", fit_1)
-	# print("Fit2: ", fit_2)
-	# print("New ind_fitness: ", fitness)	
+		crossover_chance = randint(0, 100)
+		if crossover_chance <= 90:
+			#print("Entrei crossover")
+			new_ind = crossover(first_ind, second_ind)		
 
-	# child_population.append(new_ind)
+		mutation_chance = randint(0, 100)
+		if mutation_chance <= 10:
+			#print("Entrei mutation")
+			new_ind = mutation(new_ind)
+			#pass
+		
+		fitness = calculate_fitness(new_ind, x, y)
+
+		# print("Fit1: ", fit_1)
+		# print("Fit2: ", fit_2)
+		# print("New ind_fitness: ", fitness)	
+
+		child_population.append( (new_ind, fitness) )
+		fitness_list.append(fitness)
+
+	worst_fitness = np.amax(fitness_list)
+	best_fitness = np.amin(fitness_list)
+	average_fitness = np.average(fitness_list)
+
+	print("Best: ", best_fitness, " Worst: ", worst_fitness, " Average: ", average_fitness)
+	#for ind, fit in child_population:
+
+
+	pop_fitness = copy.deepcopy(child_population)
+
 
 	#break
 
