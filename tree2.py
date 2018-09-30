@@ -8,7 +8,8 @@ import copy
 import random
 from matplotlib import pyplot as plt
 from mpl_toolkits import mplot3d
-
+from mpl_toolkits.mplot3d import axes3d
+	
 pop_list = []
 pop_fitness = []
 
@@ -162,7 +163,20 @@ def calculate_tree_value(tree, x):
 		
 		if(tree.name =='sin'):
 			return math.sin(calculate_tree_value(tree.children[0], x))
-			
+
+		if(tree.name =='cos'):
+			return math.cos(calculate_tree_value(tree.children[0], x))	
+
+		if(tree.name =='sqrt'):
+			number = calculate_tree_value(tree.children[0], x)
+			if number <= 0:
+				return number
+			else:
+				return math.sqrt(number)	
+
+		if(tree.name =='pow'):
+			return calculate_tree_value(tree.children[0], x) * calculate_tree_value(tree.children[0], x)
+
 		if(tree.name == 'x0'):
 			#retornar valor de x0
 			return x[0]
@@ -184,14 +198,15 @@ def calculate_tree_value(tree, x):
 		if(tree.name in terminals):
 			return int(tree.name)
 	except:
-		print("Fucked")
+		#print("Fucked")
+		pass
 	pass
 
 
 def calculate_fitness(tree, x, y):
 	ind_fitness = 0
 	for i in range(0, len(y)):
-		ind_fitness += (y[i] - calculate_tree_value(tree, x[i])) * (y[i] - calculate_tree_value(tree, x[i]) )
+		ind_fitness += (y[i] - calculate_tree_value(tree, x[i])) * (y[i] - calculate_tree_value(tree, x[i]))
 
 	#ind_fitness = ind_fitness/len(y)
 
@@ -257,7 +272,7 @@ def split_tree(parent, cut_height=None):
 			tree_list.append(node)
 	
 	if len(tree_list) == 0:
-		print("OI TEOTEKTOEKASFMASOPFMAPSO")
+		print("Couldn't extract trees in crossover")
 
 	# for pre, fill, node in RenderTree(parent):
 	# 	if node.depth == cut_depth and tree_2 == None and tree_1 != None:
@@ -320,7 +335,7 @@ def crossover(parent_1, parent_2):
 	#if tree_test.arity == 2:	
 	tree_1, tree_2, cut_depth_1 = split_tree(tree_test)
 
-#	if tree_test2.arity == 2:
+	#if tree_test2.arity == 2:
 	tree_3, tree_4, cut_depth_2 = split_tree(tree_test2)
 	
 	# print("Arvore a ser substituida")
@@ -375,7 +390,6 @@ def mutation(tree):
 			subtree.parent = node
 
 	return tree
-
 	
 def printtree(tree_node):
     if tree_node.left is not None:
@@ -385,7 +399,42 @@ def printtree(tree_node):
         printtree(tree_node.right)
 
 
-def plot_graph(y, tree):
+def plot_graph2(x, y, tree):
+	def f(x, y):
+		z_value = []
+		for x_min in x:
+			for y_un in y:
+				z_value_step = []
+				for x_un in x_min:
+					#print("Pair: ", x_un, " ", y_un[0])
+					calculate_x = [x_un, y_un[0]]
+					value = calculate_tree_value(tree, calculate_x)
+					#print("value: ", value)
+					z_value_step.append(value)
+				z_value.append(z_value_step)
+			return z_value
+
+	print("Shape: ", x)
+	x0 = np.array([x_val[0] for x_val in x])
+	x1 = np.array([x_val[1] for x_val in x])
+	print("Shape0: ", x0.shape)
+	print("Shape1: ", x1.shape)
+	
+	X, Y = np.meshgrid(x0, x1)
+	z = f(X, Y)
+
+	fig = plt.figure()
+	ax = plt.axes(projection='3d')
+	ax.contour3D(x0, x1, z, 50, cmap='binary')
+
+	ax.set_xlabel('x')
+	ax.set_ylabel('y')
+	ax.set_zlabel('z')
+
+	plt.show()
+
+
+def plot_graph(x, y, tree):
 	def f(x, y):
 		z_value = []
 		for x_min in x:
@@ -405,10 +454,11 @@ def plot_graph(y, tree):
 	fig = plt.figure()
 	ax = plt.axes(projection='3d')	
 	
-	x = np.linspace(0, 6)
-	#print("x: ", x)
-
-	y = np.linspace(0, 6)
+	x = np.arange(-3, 3)
+	print("x: ", x.shape)
+	print("y: ", len(y))
+	y = np.arange(-3, 3)
+	print("y2: ", y.shape)
 	#print("y: ", y)
 	
 	X, Y = np.meshgrid(x, y)
@@ -422,117 +472,155 @@ def plot_graph(y, tree):
 
 	fig = plt.figure()
 	ax = plt.axes(projection='3d')
-	ax.contour3D(X, Y, Z, 50, cmap='binary')
+	ax.contour3D(x, y, Z, 50, cmap='binary')
 	ax.set_xlabel('x')
 	ax.set_ylabel('y')
 	ax.set_zlabel('z')
 	
 	plt.show()
 
+def generate_initial_pop():
+	for i in range(gen_size):
+		tree = create_initial_pop(max_depth=pop_depth)
+
+		fitness = calculate_fitness(tree, x, y)
+
+		pop_fitness.append( (tree, fitness) )
+
+def symbolic_regression(gen_cont, pop_fitness, elitism=True, file=None):
+	best_total = None
+	best_fit_total = None
+
+	while gen_cont > 0:
+		print('Generation: ', gen_cont)
+		child_population = []
+		fitness_list = []
+		while len(child_population) < gen_size:
+			best_1, fit_1 = tournament_selection(pop_fitness, k=2)
+			#best_2, fit_2 = tournament_selection(pop_fitness, k=3)
+			different_ind = False
+			cont = 0
+			
+			while different_ind == False:
+				best_2, fit_2 = tournament_selection(pop_fitness, k=2)
+				cont += 1
+				if best_2.tree_id != best_1.tree_id or cont > 15:
+					different_ind = True
+			
+			first_ind = copy.deepcopy(best_1)
+			second_ind = copy.deepcopy(best_2)
+
+			new_ind = first_ind
+
+			crossover_chance = random.randint(0, 100)
+			#print("Cross chance: ", crossover_chance)
+			if crossover_chance <= 90:
+				#print("Entrei crossover")
+				new_ind = crossover(first_ind, second_ind)		
+			#	pass
+			mutation_chance = random.randint(0, 100)
+			#print("Mutation chance: ", mutation_chance)
+			if mutation_chance <= 10 or fit_1 == fit_2:
+				#print("Entrei mutation")
+				new_ind = mutation(new_ind)
+
+			new_ind.tree_id += 1
+
+			fitness = calculate_fitness(new_ind, x, y)
+
+
+			if elitism:
+				if fit_1 < fitness and fit_1 <= fit_2:
+					child_population.append( (best_1, fit_1) )
+					fitness_list.append(fit_1)
+				elif fit_2 < fitness and fit_2 <= fit_1:
+					child_population.append( (best_2, fit_2) )
+					fitness_list.append(fit_2)
+				else:
+					child_population.append( (new_ind, fitness) )
+					fitness_list.append(fitness)
+			else:
+				child_population.append( (new_ind, fitness) )
+				fitness_list.append(fitness)
+
+
+		worst_fitness = np.amax(fitness_list)
+		best_fitness = np.amin(fitness_list)
+		average_fitness = np.average(fitness_list)
+
+		for tree, fitness in child_population:
+			if fitness == best_fitness:
+				best_ind = tree
+
+		print("Best: ", best_fitness, " Worst: ", worst_fitness, " Average: ", average_fitness)
+
+		f.write("Gen: %d\n" % gen_cont)
+		f.write("Best: " + str(best_fitness) + "  Worst: " + str(worst_fitness) + " Average: " + str(average_fitness) + "\n")
+
+		pop_fitness = []
+		pop_fitness = copy.deepcopy(child_population)
+
+		fitness_child_repetition = []
+		
+		repetition = np.unique(fitness_list, return_counts=True)[1]
+		
+		count = sum([x-1 for x in repetition])
+
+		print("Repetition Count: ", count)
+
+		if best_fit_total == None or best_fit_total < best_fitness:
+			best_fit_total = best_fitness
+			best_total = best_ind
+
+		gen_cont -= 1
+		
+	return best_total
+
 random.seed(3443)
 np.random.seed(3443)
 	
 #Features
-gen_cont = 30
+gen_cont = 50
 gen_size = 450
-pop_size = 3
+pop_depth = 5
 tournament_size = 2
+#terminals = ['x0', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7']
 terminals = ['x0', 'x1']
-functions = ['sum', 'sub', 'div', 'mul']
-elitism = 0
-dataset_path = 'datasets/synth1/synth1-train.csv'
+functions = ['sum', 'sub', 'div', 'mul', 'sqrt', 'sin', 'cos', 'log']
+elitism = True
+dataset_path = 'datasets/concrete/concrete-train.csv'
+test_path = 'datasets/concrete/concrete-test.csv'
+dataset = 'concrete'
 
 
 fileLoad = FileLoad(dataset_path)
 x, y = fileLoad.getData()
 
-best_total = None
-best_fit_total = None
-
-for i in range(gen_size):
-	tree = create_initial_pop(max_depth=pop_size)
-
-	print("Tree height: ", tree.height)
-
-	fitness = calculate_fitness(tree, x, y)
-
-	pop_fitness.append( (tree, fitness) )
-
-#Calculate children population
-
-while gen_cont > 0:
-	print('Cont: ', gen_cont)
-
-	child_population = []
-	fitness_list = []
-	while len(child_population) < gen_size:
-		best_1, fit_1 = tournament_selection(pop_fitness, k=2)
-		#best_2, fit_2 = tournament_selection(pop_fitness, k=3)
-		different_ind = False
-		cont = 0
-		
-		while different_ind == False:
-			best_2, fit_2 = tournament_selection(pop_fitness, k=2)
-			cont += 1
-			if best_2.tree_id != best_1.tree_id or cont > 15:
-				different_ind = True
-		
-		first_ind = copy.deepcopy(best_1)
-		second_ind = copy.deepcopy(best_2)
-
-		new_ind = first_ind
-
-		crossover_chance = random.randint(0, 100)
-		#print("Cross chance: ", crossover_chance)
-		if crossover_chance <= 90:
-			#print("Entrei crossover")
-			new_ind = crossover(first_ind, second_ind)		
-		#	pass
-		mutation_chance = random.randint(0, 100)
-		#print("Mutation chance: ", mutation_chance)
-		if mutation_chance <= 10 or fit_1 == fit_2:
-			#print("Entrei mutation")
-			new_ind = mutation(new_ind)
-
-		new_ind.tree_id += 1
-
-		fitness = calculate_fitness(new_ind, x, y)
-
-		if fit_1 < fitness:
-			child_population.append( (best_1, fit_1) )
-			fitness_list.append(fit_1)
-			#pass
-		elif fit_2 < fitness:
-			child_population.append( (best_2, fit_2) )
-			fitness_list.append(fit_2)
-		else:
-			child_population.append( (new_ind, fitness) )
-			fitness_list.append(fitness)
-	
-	worst_fitness = np.amax(fitness_list)
-	best_fitness = np.amin(fitness_list)
-	average_fitness = np.average(fitness_list)
-
-	for tree, fitness in child_population:
-		if fitness == best_fitness:
-			best_ind = tree
-
-	print("Best: ", best_ind)
-
-	print("Best: ", best_fitness, " Worst: ", worst_fitness, " Average: ", average_fitness)
-	#for ind, fit in child_population:
-
-	pop_fitness = []
-	pop_fitness = copy.deepcopy(child_population)
-
-	if best_fit_total == None or best_fit_total < best_fitness:
-		best_fit_total = best_fitness
-		best_total = best_ind
-
-	gen_cont -= 1
-	#print("New cont: ", cont)
-
-print("Sai")
-plot_graph(y, best_total)
+testLoad = FileLoad(test_path)
+x_test, y_test = testLoad.getData()
 
 
+for parameter in np.arange(3, 10, 1):
+	pop_depth = parameter
+
+	file_name = "result/pop_depth/" + str(dataset) + "_" + "GenCount=" + str(gen_cont) + "_" + "GenSize=" + str(gen_size) + "_" + "PopDepth=" + str(pop_depth) + "_" + "TournamentSize" + str(tournament_size) + "_" + "elitism=" + str(elitism) + '.txt'
+	f = open(file_name, "w+")
+
+	print("Gen size: ", gen_size)
+
+	generate_initial_pop()
+
+	best_total = symbolic_regression(gen_cont, pop_fitness,elitism=elitism, file=f)
+
+	f.close()
+
+	#break
+	#print("Sai")
+	#print(len(y_test))
+	#print(x_test.shape)
+	#plot_graph2(x_test, y_test, best_total)
+	#break
+
+"""
+
+"""

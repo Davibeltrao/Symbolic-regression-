@@ -1,0 +1,20525 @@
+X:  [[-1.23592861 -1.36410559]
+ [-0.60259712 -0.60758157]
+ [ 2.80419539  2.66919459]
+ [-0.22628393 -2.97797806]
+ [ 2.0402239  -0.59282888]
+ [ 2.04018436 -2.76239258]
+ [-2.10626686 -1.45624005]
+ [-0.29978563 -1.65446669]
+ [-1.16449862 -1.25239928]
+ [ 2.57773273  0.08519547]
+ [ 1.89165005  1.29172784]
+ [ 2.36899931 -2.18879412]
+ [ 1.4067949   0.17075811]
+ [-2.68837829  1.90014422]
+ [ 0.86002647 -0.10244933]
+ [ 2.60129804 -1.3941693 ]
+ [-2.47177943  2.89275905]
+ [-1.29019162  2.04870877]
+ [ 2.32938691 -1.0067635 ]
+ [ 0.58527735  2.30291343]
+ [-0.51023168 -2.11925066]
+ [-1.32152766  2.32269726]
+ [ 0.05633501  2.76084313]
+ [-0.09313763 -2.23301693]
+ [ 1.97162227  1.81713571]
+ [-1.37382068  0.95946645]
+ [ 1.82537695  1.12044983]
+ [-2.81405543  1.60039838]
+ [ 2.44452529 -0.02101332]
+ [ 1.42222634  0.72127586]
+ [-0.74378574  1.07542581]
+ [ 0.76565398 -0.65273546]
+ [ 1.15006428  1.61705657]
+ [ 2.26921508 -0.67634508]
+ [ 0.75524691 -0.53891557]
+ [ 1.90911928 -1.25217044]
+ [-1.41810314  0.54351326]
+ [ 0.34164877 -2.1777736 ]
+ [-1.74404072  0.8900334 ]
+ [ 0.41292998 -0.04027991]
+ [ 0.9715203  -0.14851994]
+ [ 1.28372157  2.20696116]
+ [ 1.29376308  1.33962953]
+ [ 2.81425076  2.50739697]
+ [ 2.90074401  0.70018232]
+ [-0.03572581 -1.67231968]
+ [-0.7729392   0.92480923]
+ [ 0.36927427 -0.01172064]
+ [ 0.65858204 -1.25862072]
+ [ 2.61672017 -2.70894752]
+ [-0.29837052 -0.50178638]
+ [ 1.78938884 -1.7646927 ]
+ [ 1.27607881  1.89077621]
+ [ 0.2666624  -0.87541022]
+ [-0.53556177  2.03717157]
+ [ 2.52086193 -2.18030097]
+ [ 0.14374979 -0.14649119]
+ [ 0.13116347 -0.51579017]
+ [ 0.31366693 -0.77101199]
+ [-2.45690672 -0.84795411]]
+y:  [ 6.51571868e+00  1.14283484e+00  4.06770995e+01  7.42636336e+00
+  9.60261140e+00  1.54110091e+01  3.15420067e+01  3.05811574e+00
+  5.45466850e+00  2.69422756e+01  5.57810219e+00  2.27853207e+01
+  9.76398362e-01  7.15700456e+01  1.86580340e-02  3.05526118e+01
+  5.37214389e+01  4.96841542e+00  1.83161422e+01  2.65645410e-01
+  4.56546922e+00  5.73276309e+00  1.05011555e+00  4.72708241e+00
+  7.28063688e+00  5.65596319e+00  4.52732693e+00  8.46735881e+01
+  2.11225119e+01  7.53494445e-01  2.20368918e-01  7.60581909e-01
+ -8.13532988e-02  1.57357855e+01  5.78693071e-01  8.36200282e+00
+  6.50020633e+00  4.52286843e+00  1.40626621e+01 -2.43971786e-04
+  1.33433956e-01  8.28589872e-01  1.93826967e-01  4.10737526e+01
+  4.59378797e+01  3.07069346e+00  3.21536341e-01 -1.99712024e-02
+  1.95315878e+00  3.53453581e+01  6.62169040e-01  7.84453971e+00
+  4.70415648e-01  1.24467617e+00  2.73745087e-01  2.89205051e+01
+  1.54677581e-01  6.46849376e-01  1.04706099e+00  5.24763274e+01]
+Cont:  60
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sum
+x0
+x1
+sub
+x0
+x1
+Split 2
+sum
+sum
+x0
+x1
+sub
+x0
+x1
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+div
+mul
+x1
+x0
+sub
+x1
+x0
+Split 2
+mul
+sum
+x1
+x0
+mul
+x0
+x1
+Split 1
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x1
+Split 1
+mul
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+mul
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+mul
+sub
+x0
+x0
+sub
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+sum
+x0
+x0
+sub
+x1
+x0
+Split 2
+div
+sum
+x0
+x0
+sub
+x1
+x0
+Split 1
+mul
+div
+x0
+x0
+sub
+x1
+x0
+Split 2
+div
+div
+x0
+x1
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+sum
+x0
+x1
+mul
+x0
+x1
+Split 2
+div
+mul
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x1
+x0
+Split 2
+mul
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+div
+x0
+x0
+mul
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+div
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x1
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+div
+x1
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+div
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+div
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+div
+div
+x1
+x1
+mul
+x1
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+div
+sum
+x0
+x1
+div
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+sub
+sub
+x1
+x0
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+div
+sub
+x0
+x0
+mul
+x0
+x1
+Split 1
+sub
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x1
+x1
+mul
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+sum
+x1
+x0
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x0
+sub
+x1
+x1
+Split 1
+div
+mul
+x1
+x1
+mul
+x0
+x1
+Split 2
+div
+mul
+x1
+x1
+mul
+x0
+x1
+Split 1
+sum
+div
+x0
+x0
+mul
+x0
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sum
+mul
+x1
+x1
+x0
+Split 2
+sub
+sub
+x1
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+div
+sum
+x1
+x1
+sub
+x0
+x0
+Split 2
+div
+sum
+x1
+x1
+sub
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+sub
+x1
+x0
+sub
+x1
+x1
+Split 2
+mul
+sub
+x1
+x0
+sub
+x1
+x1
+Split 1
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+sum
+x0
+x1
+Split 2
+div
+div
+x0
+x0
+sum
+x0
+x1
+Split 1
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+sub
+sub
+x0
+x0
+sum
+x1
+x0
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+x0
+Split 2
+div
+sub
+x0
+x0
+mul
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+sum
+x0
+x1
+Split 2
+div
+sub
+x1
+x1
+sum
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+x1
+Split 1
+x0
+Split 2
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+mul
+sub
+x1
+x1
+mul
+x1
+x1
+Split 1
+sub
+sum
+x0
+x0
+mul
+x1
+x1
+Split 2
+sum
+mul
+x1
+x1
+x1
+Split 1
+mul
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+mul
+x1
+x0
+mul
+x0
+x0
+Split 1
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+div
+x0
+x1
+mul
+x0
+x1
+Split 2
+sub
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 1
+mul
+mul
+x0
+x1
+x1
+Split 2
+mul
+sum
+x0
+x0
+mul
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+mul
+x1
+x1
+Split 2
+mul
+div
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+sum
+x0
+x1
+sum
+x1
+x0
+Split 2
+mul
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+div
+mul
+x1
+x0
+sub
+x1
+x0
+Split 2
+sum
+div
+x0
+x0
+div
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sub
+x0
+sub
+x0
+x1
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sum
+x0
+sub
+x1
+x0
+Split 2
+sum
+x0
+sub
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+sub
+x0
+x0
+div
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sum
+x1
+x0
+Split 1
+div
+sum
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+sub
+x0
+x0
+mul
+x1
+x0
+Split 1
+sub
+sub
+x0
+x0
+sum
+x0
+x1
+Split 2
+sub
+sub
+x0
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sub
+x0
+x1
+div
+x1
+x1
+Split 1
+sub
+sum
+x0
+x0
+x0
+Split 2
+sub
+mul
+x0
+x1
+mul
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+sub
+x1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sub
+sub
+x0
+x0
+sum
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+x0
+Split 1
+mul
+div
+x0
+x0
+div
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+mul
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+div
+x0
+x0
+sum
+x1
+x0
+Split 2
+mul
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+sub
+x1
+x0
+sub
+x1
+x0
+Split 2
+mul
+sum
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+div
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x0
+x0
+sub
+x0
+x0
+Split 2
+div
+div
+x0
+x0
+sum
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+div
+sub
+x0
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x1
+x1
+div
+x0
+x1
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 1
+div
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sub
+x0
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+div
+x0
+x1
+mul
+x1
+x0
+Split 2
+x1
+Split 1
+sub
+div
+x0
+x0
+div
+x0
+x1
+Split 2
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+sub
+x1
+x0
+div
+x0
+x0
+Split 2
+sum
+mul
+x0
+x0
+sub
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+sum
+x1
+x1
+Split 2
+mul
+sum
+x0
+x1
+sub
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 1
+sum
+mul
+x1
+x1
+div
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+sub
+x0
+x1
+div
+x1
+x1
+Split 2
+sum
+mul
+x0
+x0
+sum
+x0
+x1
+Split 1
+mul
+div
+x1
+x1
+x1
+Split 2
+mul
+div
+x1
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+div
+x0
+x1
+mul
+x1
+x0
+Split 2
+sum
+sum
+x1
+x1
+sub
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+div
+x0
+x1
+Split 2
+sub
+sum
+x1
+x0
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+div
+x0
+x1
+mul
+x1
+x1
+Split 2
+sum
+div
+x0
+x1
+mul
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+sub
+x0
+x0
+sum
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+sub
+x0
+x1
+sub
+x0
+x1
+Split 1
+sum
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+div
+x0
+x0
+Split 1
+sum
+sub
+x0
+x0
+sub
+x0
+x0
+Split 2
+div
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+sum
+x1
+x0
+div
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+sub
+x0
+x1
+Split 2
+sum
+div
+x1
+x1
+div
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+sum
+x0
+x0
+Split 2
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+mul
+x0
+x0
+sub
+x1
+x0
+Split 2
+sub
+x1
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+sub
+x1
+x0
+sub
+x1
+x1
+Split 2
+div
+mul
+x1
+x1
+sub
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+sub
+x0
+x0
+mul
+x0
+x1
+Split 2
+div
+sub
+x0
+x0
+mul
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+div
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+div
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+div
+x0
+x0
+Split 2
+mul
+div
+x1
+x0
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+mul
+x0
+div
+x0
+x0
+Split 2
+mul
+x0
+div
+x0
+x0
+Split 1
+div
+sum
+x0
+x0
+div
+x0
+x1
+Split 2
+mul
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+sum
+x0
+x0
+Split 2
+sub
+mul
+x1
+x1
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+x1
+mul
+x1
+x1
+Split 2
+sub
+div
+x0
+x0
+sum
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+sum
+x1
+x1
+x0
+Split 2
+sum
+mul
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+mul
+x1
+x1
+sum
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sum
+x1
+x0
+Split 1
+mul
+sub
+x1
+x0
+sub
+x1
+x1
+Split 2
+sum
+mul
+x1
+x0
+sum
+x1
+x0
+Split 1
+div
+div
+x0
+x0
+mul
+x0
+x1
+Split 2
+div
+mul
+x0
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+sum
+x0
+x1
+sub
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+sub
+x1
+x0
+div
+x0
+x0
+Split 2
+mul
+div
+x1
+x0
+sub
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+div
+sub
+x0
+x0
+sub
+x0
+x1
+Split 2
+div
+sub
+x0
+x0
+sub
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+mul
+x0
+x1
+x0
+Split 2
+mul
+mul
+x0
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+sum
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+sub
+x0
+x0
+x1
+Split 2
+mul
+sub
+x0
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+sub
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+mul
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+sub
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+div
+x1
+x1
+sub
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+div
+x1
+x1
+Split 2
+sum
+sum
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sum
+mul
+x0
+x0
+x1
+Split 2
+sum
+mul
+x0
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x1
+Split 2
+sum
+div
+x0
+x1
+mul
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+mul
+x1
+x0
+Split 2
+mul
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+div
+sum
+x0
+x1
+div
+x0
+x0
+Split 1
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+div
+x0
+x1
+sum
+x0
+x0
+Split 1
+div
+sub
+x1
+x0
+div
+x0
+x0
+Split 2
+mul
+sub
+x1
+x1
+div
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+mul
+x0
+x0
+Split 2
+sum
+mul
+x0
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+mul
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+mul
+x1
+x1
+x1
+Split 2
+div
+div
+x1
+x0
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+sub
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sub
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+div
+x1
+x0
+sub
+x0
+x0
+Split 2
+sum
+div
+x1
+x0
+sub
+x0
+x0
+Split 1
+mul
+sum
+x0
+x1
+div
+x1
+x1
+Split 2
+sub
+mul
+x0
+x1
+div
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+div
+x0
+mul
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+sum
+sum
+x0
+x1
+div
+x0
+x1
+Split 2
+sum
+sum
+x0
+x1
+div
+x0
+x1
+Split 1
+x1
+Split 2
+div
+div
+x1
+x0
+sum
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+sum
+x1
+x1
+sum
+x0
+x1
+Split 2
+sum
+sum
+x1
+x1
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+div
+sum
+x0
+x1
+sum
+x0
+x1
+Split 2
+div
+sum
+x0
+x1
+sum
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+div
+x0
+x0
+sum
+x0
+x1
+Split 2
+sub
+div
+x1
+x1
+mul
+x0
+x1
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+div
+x1
+x1
+mul
+x1
+x1
+Split 2
+div
+div
+x1
+x1
+mul
+x1
+x1
+Split 1
+sum
+sum
+x1
+x1
+mul
+x0
+x1
+Split 2
+sum
+sum
+x1
+x1
+mul
+x0
+x1
+Split 1
+mul
+sub
+x0
+x1
+mul
+x0
+x1
+Split 2
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+div
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+mul
+sum
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x0
+x0
+Split 2
+div
+div
+x0
+x0
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+div
+x1
+x1
+x0
+Split 2
+sub
+div
+x1
+x1
+x0
+Split 1
+mul
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+sum
+sub
+x1
+x1
+sub
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+sum
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+sum
+div
+x1
+x0
+x0
+Split 2
+mul
+sum
+x1
+x0
+sub
+x0
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+mul
+x1
+x0
+Split 2
+sum
+sum
+x0
+x0
+mul
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+div
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+div
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x0
+x0
+Split 2
+div
+div
+x0
+x0
+sum
+x0
+x0
+Split 1
+mul
+sub
+x0
+x0
+x1
+Split 2
+mul
+sub
+x0
+x1
+sub
+x1
+x1
+Split 1
+sub
+sub
+x1
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x1
+x0
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+x0
+mul
+x1
+x1
+Best:  Tree('/sum', arity=2, num_childs=2, tree_id=3284)
+Best:  0.8281385874620838  Worst:  8.516141714597463  Average:  1.2181882502342825
+Cont:  59
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+sub
+sub
+x0
+x1
+div
+x0
+x0
+Split 2
+mul
+mul
+x1
+x1
+sub
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 2
+sum
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+div
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+div
+x0
+x0
+x1
+Split 2
+sum
+sub
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+sum
+x1
+x1
+sum
+x1
+x1
+Split 2
+sum
+x0
+sum
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+sum
+mul
+x1
+x1
+div
+x0
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x1
+Split 1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sub
+x0
+x1
+Split 1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+div
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+sum
+x1
+x0
+mul
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+div
+x0
+x0
+sub
+x0
+x0
+Split 2
+div
+sum
+x0
+x0
+div
+x0
+x1
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+mul
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+mul
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sum
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+mul
+x0
+x1
+mul
+x1
+x1
+Split 2
+sub
+sum
+x0
+x0
+sub
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+sum
+x0
+x1
+sub
+x0
+x1
+Split 2
+div
+x1
+sub
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+x1
+Split 2
+div
+mul
+x0
+x0
+sum
+x0
+x0
+Split 1
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+sub
+x0
+x0
+sum
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+div
+x1
+x1
+sum
+x0
+x0
+Split 2
+div
+sum
+x0
+x1
+sum
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+sum
+x1
+x0
+div
+x1
+x1
+Split 2
+div
+sum
+x0
+x1
+div
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sub
+x0
+x1
+mul
+x1
+x1
+Split 2
+sub
+mul
+x0
+x1
+sub
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sum
+div
+x0
+x0
+div
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+sub
+x0
+x1
+sum
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+div
+div
+x1
+x0
+x1
+Split 2
+div
+div
+x1
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 1
+sum
+div
+x0
+x0
+div
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+sub
+sub
+x1
+x0
+sum
+x1
+x1
+Split 2
+div
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+div
+sub
+x1
+x1
+sub
+x1
+x0
+Split 2
+sum
+sub
+x0
+x0
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+div
+x0
+x1
+mul
+x1
+x0
+Split 2
+mul
+div
+x0
+x1
+mul
+x1
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+mul
+x0
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+mul
+x0
+x0
+sub
+x1
+x0
+Split 2
+sub
+sub
+x1
+x0
+div
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+x0
+Split 1
+sum
+mul
+x0
+x0
+x1
+Split 2
+sum
+x0
+sub
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+x1
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x0
+x1
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+mul
+mul
+x0
+x1
+div
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 2
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 2
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sub
+sub
+x0
+x1
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+x0
+mul
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 2
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 1
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x1
+mul
+x1
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+mul
+div
+x0
+x0
+sub
+x1
+x0
+Split 2
+div
+sum
+x1
+x1
+div
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+sum
+x0
+x1
+sum
+x1
+x0
+Split 1
+mul
+sum
+x1
+x0
+div
+x0
+x1
+Split 2
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x0
+x1
+Split 1
+mul
+sub
+x0
+x1
+sum
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sum
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+sub
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+sub
+x0
+x0
+sum
+x0
+x1
+Split 2
+div
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 1
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 2
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+sub
+x0
+x0
+sum
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sum
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+mul
+div
+x0
+x1
+mul
+x1
+x0
+Split 2
+x0
+Split 1
+div
+sum
+x0
+x0
+x0
+Split 2
+div
+sum
+x0
+x0
+x0
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+div
+sum
+x0
+x0
+x0
+Split 2
+div
+sum
+x0
+x0
+x0
+Split 1
+sum
+sub
+x0
+x0
+div
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x1
+sub
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+div
+div
+x1
+x1
+sum
+x0
+x0
+Split 2
+x0
+Split 1
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+mul
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+div
+x0
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+x1
+Split 2
+sub
+mul
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+sum
+x1
+x0
+div
+x0
+x1
+Split 2
+mul
+sum
+x1
+x0
+div
+x0
+x1
+Split 1
+div
+div
+x0
+x0
+sum
+x1
+x0
+Split 2
+sum
+sub
+x0
+x0
+sub
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+mul
+x1
+x1
+Split 2
+sub
+sub
+x1
+x0
+sub
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+div
+x0
+x1
+sub
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+div
+x1
+x1
+Split 1
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 2
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+sum
+x0
+x1
+sum
+x1
+x0
+Split 2
+sub
+sum
+x0
+x1
+sum
+x1
+x0
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x1
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+div
+x0
+x1
+sum
+x1
+x0
+Split 2
+sub
+x1
+sum
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+mul
+x1
+x1
+Split 2
+sub
+sub
+x1
+x0
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 1
+div
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+sum
+mul
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 1
+sum
+x1
+div
+x1
+x0
+Split 2
+mul
+sub
+x0
+x0
+div
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+sub
+x0
+x1
+x0
+Split 1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+sub
+x1
+x0
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+div
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sub
+x0
+x0
+sum
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+sub
+x0
+x1
+sub
+x0
+x1
+Split 2
+mul
+sum
+x1
+x1
+sub
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+mul
+x1
+x0
+mul
+x1
+x1
+Split 2
+sub
+sub
+x0
+x1
+sub
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+sub
+mul
+x0
+x1
+sub
+x1
+x0
+Split 2
+sub
+mul
+x0
+x1
+sub
+x1
+x0
+Split 1
+sum
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sub
+x0
+x1
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x1
+sub
+x1
+x0
+Split 2
+sub
+mul
+x0
+x1
+sub
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+div
+x0
+x1
+Split 2
+sub
+sum
+x0
+x0
+sub
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x1
+Split 2
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+div
+sub
+x0
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x1
+x0
+Split 1
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+mul
+x1
+x0
+x0
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+sum
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 2
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x1
+x1
+Split 2
+sum
+mul
+x0
+x1
+div
+x0
+x0
+Split 1
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x1
+sub
+x1
+x1
+Split 2
+div
+sum
+x0
+x1
+sum
+x1
+x0
+Split 1
+mul
+x0
+div
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sum
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x0
+x0
+sum
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+mul
+div
+x0
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+mul
+x1
+x0
+Split 2
+div
+mul
+x0
+x0
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+sub
+x1
+x0
+sum
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x1
+Split 1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+x1
+Split 2
+sub
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x1
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+mul
+x1
+x0
+sub
+x1
+x1
+Split 2
+sum
+mul
+x1
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+mul
+x0
+x0
+Split 2
+sum
+sub
+x1
+x0
+mul
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Best:  Tree('/sum', arity=2, num_childs=2, tree_id=822)
+Best:  0.7050297168157983  Worst:  1.279719605725759  Average:  1.079403166889315
+Cont:  58
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x1
+Split 1
+sub
+sub
+x1
+x0
+sum
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+sum
+x1
+x0
+div
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+mul
+sub
+x0
+x1
+mul
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+div
+sub
+x1
+x0
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+div
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+sub
+div
+x1
+x1
+mul
+x1
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+x1
+Split 2
+sub
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+div
+x0
+x1
+sum
+x1
+x0
+Split 2
+sum
+mul
+x0
+x0
+sub
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+sub
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+div
+sub
+x0
+x1
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+mul
+sub
+x1
+x1
+mul
+x1
+x1
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+div
+x0
+x0
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+sum
+x0
+x1
+sum
+x1
+x0
+Split 2
+mul
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x1
+Split 1
+sub
+sub
+x1
+x0
+sum
+x1
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 2
+div
+div
+x0
+x1
+div
+x0
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sum
+x1
+x1
+sub
+x1
+x0
+Split 2
+mul
+div
+x0
+x1
+mul
+x1
+x0
+Split 1
+sum
+mul
+x0
+x1
+div
+x0
+x0
+Split 2
+sum
+mul
+x1
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+sum
+x0
+x1
+Split 1
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+sum
+x0
+div
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+div
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+div
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+sum
+x1
+x0
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+x1
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+x1
+Split 2
+sub
+mul
+x1
+x1
+sum
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+sum
+div
+x0
+x0
+mul
+x0
+x0
+Split 2
+sum
+div
+x0
+x0
+mul
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+div
+x1
+x0
+Split 2
+sum
+x0
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 2
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 1
+div
+div
+x1
+x0
+sum
+x1
+x0
+Split 2
+sub
+mul
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+div
+x0
+x0
+div
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+sub
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+mul
+x0
+x1
+div
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+sub
+x0
+x1
+sub
+x1
+x0
+Split 2
+sum
+mul
+x1
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x1
+x1
+Split 2
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+mul
+x0
+x0
+x1
+Split 2
+sum
+x0
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+x1
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x0
+x0
+Split 2
+div
+div
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 1
+sub
+sub
+x1
+x0
+sub
+x0
+x1
+Split 2
+sub
+sub
+x1
+x0
+sub
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x0
+x1
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+mul
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 2
+sum
+x0
+div
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+sub
+x0
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+div
+x0
+x0
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+sum
+x0
+x1
+sub
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+mul
+sub
+x1
+x1
+mul
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+sub
+x0
+x1
+div
+x0
+x0
+Split 2
+mul
+mul
+x1
+x1
+sub
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+sum
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+sub
+x1
+x1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 2
+mul
+div
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+x0
+div
+x1
+x0
+Split 2
+sum
+x0
+div
+x1
+x0
+Split 1
+div
+sum
+x0
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+sum
+x1
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x1
+sub
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x1
+x1
+Split 1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sub
+x0
+div
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+sum
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 2
+sum
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+div
+x1
+x0
+Split 2
+sub
+sub
+x1
+x0
+sub
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Best:  Tree('/sum', arity=2, num_childs=2, tree_id=823)
+Best:  0.683747064633749  Worst:  1.2105046565573523  Average:  0.9824530267464365
+Cont:  57
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 2
+x1
+Split 1
+x0
+Split 2
+div
+x0
+x1
+Split 1
+sum
+x0
+div
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+sub
+x1
+x0
+Split 2
+sum
+mul
+x0
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 2
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+sum
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sub
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sub
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+sum
+x0
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+mul
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+sum
+x0
+x1
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x1
+sub
+x1
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x1
+sum
+x1
+x1
+Split 2
+mul
+mul
+x0
+x1
+sub
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+mul
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+x1
+Split 2
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sum
+div
+x0
+x0
+sum
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+sub
+x0
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 2
+sub
+mul
+x0
+x1
+mul
+x0
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+sub
+x0
+x1
+mul
+x0
+x1
+Split 2
+sum
+x0
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x1
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+sum
+div
+x0
+x0
+mul
+x0
+x0
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+div
+sum
+x1
+x0
+sub
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sum
+x0
+x0
+Split 2
+mul
+sub
+x0
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+div
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x0
+div
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+mul
+x1
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x0
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+sub
+div
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+sum
+sum
+x0
+x1
+x1
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 2
+sub
+mul
+x0
+x0
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+sub
+x0
+x1
+sub
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 1
+sum
+x0
+div
+x1
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sub
+x0
+div
+x0
+x1
+Split 2
+sum
+div
+x0
+x0
+sub
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 2
+sum
+mul
+x0
+x0
+div
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sum
+mul
+x0
+x0
+sub
+x1
+x0
+Split 2
+sub
+sub
+x1
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+x0
+Split 1
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+sub
+div
+x0
+x0
+div
+x0
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+div
+sub
+x1
+x1
+div
+x1
+x0
+Split 2
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+div
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+sum
+mul
+x0
+x0
+mul
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+mul
+x1
+x1
+Split 1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+div
+x0
+x0
+sum
+x1
+x1
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+div
+x0
+x1
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+sum
+div
+x0
+x0
+sum
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+sum
+x0
+x0
+sub
+x0
+x1
+Split 2
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+sum
+sum
+x0
+x1
+x1
+Split 1
+sum
+x0
+div
+x1
+x1
+Split 2
+sum
+x0
+div
+x1
+x1
+Split 1
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 2
+sub
+sum
+x1
+x0
+sub
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+mul
+x0
+x0
+sum
+x0
+x0
+Split 2
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+mul
+x0
+x0
+Best:  Tree('/sum', arity=2, num_childs=2, tree_id=3146)
+Best:  0.6386840339244647  Worst:  1.163197098986139  Average:  0.8978973304052074
+Cont:  56
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+sum
+x0
+x1
+div
+x1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+div
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+sum
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+x0
+Split 2
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x0
+div
+x1
+x1
+Split 2
+sum
+x0
+div
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+x1
+Split 1
+sub
+sub
+x1
+x0
+sum
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+div
+x1
+x0
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x1
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+div
+x1
+x1
+Split 2
+sum
+x0
+div
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+sub
+mul
+x0
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sum
+sum
+x1
+x0
+mul
+x1
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+x0
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+div
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x0
+Split 2
+div
+x1
+x0
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+mul
+div
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+div
+x0
+x1
+div
+x0
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x0
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 2
+sum
+div
+x0
+x0
+mul
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x1
+Split 1
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 2
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+x0
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+sum
+sub
+x1
+x0
+div
+x1
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+div
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x0
+x0
+Split 1
+x0
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+div
+x1
+x1
+mul
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+mul
+mul
+x1
+x1
+sum
+x0
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+x0
+Split 1
+x1
+Split 2
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+x0
+Split 1
+div
+sum
+x1
+x0
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x0
+x0
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 2
+mul
+mul
+x1
+x0
+div
+x1
+x0
+Split 1
+mul
+mul
+x1
+x1
+sub
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+x0
+Split 1
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+x1
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+div
+x1
+x1
+Split 2
+sum
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sum
+mul
+x0
+x1
+sum
+x0
+x1
+Split 1
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+sum
+x0
+x0
+mul
+x0
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+mul
+x1
+div
+x0
+x0
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+x0
+Split 1
+x1
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+mul
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+x1
+Split 2
+mul
+div
+x1
+x0
+mul
+x1
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+mul
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sum
+x1
+x0
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+mul
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+div
+x0
+x1
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+sub
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+sub
+x1
+x1
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+sub
+mul
+x1
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+x0
+Split 2
+x0
+Split 1
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 2
+sub
+mul
+x0
+x0
+sub
+x0
+x1
+Split 1
+sum
+sub
+x0
+x1
+sum
+x1
+x1
+Split 2
+sum
+div
+x1
+x1
+mul
+x0
+x0
+Split 1
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 2
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sub
+x0
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 2
+mul
+sub
+x0
+x1
+sum
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+div
+mul
+x0
+x0
+sub
+x1
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+mul
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+div
+x1
+x0
+Split 2
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x1
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+mul
+x1
+x1
+sub
+x1
+x0
+Split 2
+sub
+mul
+x0
+x0
+sum
+x1
+x1
+Split 1
+x1
+Split 2
+mul
+x1
+x1
+Split 1
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+x1
+Split 2
+div
+x1
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+x0
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+sum
+sub
+x1
+x1
+div
+x0
+x0
+Split 2
+sub
+sum
+x0
+x0
+div
+x0
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+x1
+Split 2
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+div
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 2
+sub
+div
+x0
+x1
+sub
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 1
+div
+x1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+sum
+x0
+x1
+Split 2
+div
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x1
+x0
+mul
+x0
+x1
+Split 2
+sum
+x0
+div
+x1
+x1
+Split 1
+x1
+Split 2
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+sum
+x0
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x1
+x1
+Split 2
+sum
+x1
+x0
+Split 1
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 2
+x0
+Split 1
+x1
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x1
+x0
+Split 2
+sub
+x0
+x1
+Split 1
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 2
+sum
+sub
+x0
+x1
+mul
+x1
+x0
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+mul
+mul
+x1
+x1
+x1
+Split 1
+mul
+x1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+x1
+x1
+Split 2
+sum
+x0
+x1
+Split 1
+mul
+mul
+x0
+x0
+div
+x0
+x0
+Split 2
+sub
+x1
+x0
+Split 1
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+sum
+x0
+x1
+Split 1
+sub
+mul
+x0
+x0
+sub
+x1
+x1
+Split 2
+mul
+mul
+x0
+x1
+div
+x0
+x1
+Split 1
+sub
+sub
+x1
+x1
+mul
+x0
+x1
+Split 2
+sub
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sum
+x0
+x1
+Split 2
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+mul
+x1
+x1
+x0
+Split 2
+x0
+Split 1
+div
+x0
+x0
+Split 2
+x1
+Split 1
+mul
+mul
+x1
+x1
+x1
+Split 2
+x0
+Split 1
+sub
+div
+x1
+x0
+sum
+x0
+x1
+Split 2
+mul
+sum
+x0
+x1
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+x0
+Split 2
+x1
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 1
+x0
+Split 2
+mul
+x0
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x1
+x1
+Split 1
+mul
+x0
+x1
+Split 2
+div
+x0
+x0
+Split 1
+sub
+x1
+x0
+Split 2
+sum
+x0
+x0
+Split 1
+x0
+Split 2
+x0
+Split 1
+div
+sum
+x1
+x0
+sum
+x0
+x1
+Split 2
+sum
+sum
+x0
+x0
+sub
+x1
+x1
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x0
+x0
+Split 1
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 2
+sub
+sum
+x1
+x0
+sum
+x1
+x1
+Split 1
+sum
+x0
+x0
+Split 2
+div
+x0
+x0
+Split 1
+mul
+x0
+x0
+Split 2
+mul
+x1
+x0
+Fucked
+Fucked
+Fucked
