@@ -580,12 +580,11 @@ random.seed(3443)
 np.random.seed(3443)
 	
 #Features
-gen_cont = 50
-gen_size = 450
-pop_depth = 5
+gen_cont = 300
+gen_size = 1500
+pop_depth = 8
 tournament_size = 2
-#terminals = ['x0', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7']
-terminals = ['x0', 'x1']
+terminals = ['x0', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7']
 functions = ['sum', 'sub', 'div', 'mul', 'sqrt', 'sin', 'cos', 'log']
 elitism = True
 dataset_path = 'datasets/concrete/concrete-train.csv'
@@ -600,19 +599,19 @@ testLoad = FileLoad(test_path)
 x_test, y_test = testLoad.getData()
 
 
-for parameter in np.arange(3, 10, 1):
-	pop_depth = parameter
+#for parameter in np.arange(3, 10, 1):
+	#pop_depth = parameter
 
-	file_name = "result/pop_depth/" + str(dataset) + "_" + "GenCount=" + str(gen_cont) + "_" + "GenSize=" + str(gen_size) + "_" + "PopDepth=" + str(pop_depth) + "_" + "TournamentSize" + str(tournament_size) + "_" + "elitism=" + str(elitism) + '.txt'
-	f = open(file_name, "w+")
+file_name = "result/concrete/" + str(dataset) + "_" + "GenCount=" + str(gen_cont) + "_" + "GenSize=" + str(gen_size) + "_" + "PopDepth=" + str(pop_depth) + "_" + "TournamentSize" + str(tournament_size) + "_" + "elitism=" + str(elitism) + '.txt'
+f = open(file_name, "w+")
 
-	print("Gen size: ", gen_size)
+print("Gen size: ", gen_size)
 
-	generate_initial_pop()
+generate_initial_pop()
 
-	best_total = symbolic_regression(gen_cont, pop_fitness,elitism=elitism, file=f)
+best_total = symbolic_regression(gen_cont, pop_fitness,elitism=elitism, file=f)
 
-	f.close()
+f.close()
 
 	#break
 	#print("Sai")
